@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin: 10px 0 0;
+  font-size: 1.2rem;
+}
+
+#ingredients-list {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#ingredients-list th,
+#ingredients-list td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+#ingredients-list th {
+  background-color: #222;
+  color: #fff;
+}
+
+#result {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+#result h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+#result ul {
+  list-style: none;
+  padding: 0;
+}
+
+#result li {
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+}
+
+button {
+  margin-top: 20px;
+  margin-right: 10px; /* Abstand zum nächsten Button */
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.reset-btn {
+  background-color: #ff0000; /* Rote Hintergrundfarbe für Zurücksetzen-Button */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
